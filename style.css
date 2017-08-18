@@ -14,7 +14,7 @@
 	text-align: left;
 	
 }
-.lgp #wrapper { 
+.lgp .wrapper { 
 	width: 960px;  
 	background-image:url(images/header-bg.png);
 	background-repeat:repeat-x;
@@ -25,7 +25,7 @@
 	border: 1px solid #000000;
 	text-align: left; 
 } 
-.lgp #header { 
+.lgp header { 
 	height:120px;
 	float:left;
 	width:100%;
@@ -59,7 +59,7 @@
 	border:5px solid #00698c;
 }
 
-.lgp #header h1 {
+.lgp .header h1 {
 	margin: 0; 
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -77,25 +77,25 @@ color:#000;
 text-decoration:underline;
 font-size:14px;
 }*/
-.lgp #sidebar1 {
+.lgp .sidebar1 {
 	float: left; 
 	width: 200px; 
 	padding: 15px 10px 15px 20px;
 }
-.lgp #sidebar1 ul  {
+.lgp .sidebar1 ul  {
     margin: 0px;
 	padding-left: 20px;
 	line-height: 150%;
 }
-.lgp #sidebar1 ul  li {
+.lgp .sidebar1 ul  li {
 margin:10px 0;
 }
-.lgp #sidebar1 ul  li a {
+.lgp .sidebar1 ul  li a {
 	color:#000;
 	font-size:13px;
 	text-decoration:none;
 }
-.lgp #sidebar1 ul  li a:hover {
+.lgp .sidebar1 ul  li a:hover {
 	color:#000;
 	 font-size:14px; 
 	text-decoration:underline;
@@ -104,32 +104,32 @@ margin:10px 0;
 margin-top: 40px;
 }
 
-.lgp #sidebar1 .models_link a 
+.lgp .sidebar1 .models_link a 
 {
 color:red;
 
 }
 
-.lgp #mainContent { 
+.lgp main { 
 	width:680px;
 	padding: 0 20px; 
 	float:right;
 } 
-.lgp #footer { 
+.lgp footer { 
 	padding: 0 10px 0 20px; 
 	background:#DDDDDD; 
 	
 	height:90px;
 } 
-.lgp #footer p {
+.lgp footer p {
 	margin: 0; 
 	padding: 10px 0; 
 }
-.lgp #footer a {
+.lgp footer a {
 color:black;
 text-decoration:none;
 }
-.lgp #footer a :hover {
+.lgp footer a :hover {
 color:black;
 text-decoration:underline;
 }
@@ -148,7 +148,7 @@ text-decoration:underline;
     font-size: 1px;
     line-height: 0px;
 }
-.lgp #wrapper #header img {
+.lgp .wrapper header img {
 	margin: 10px;
 }
 .logo {
